@@ -1,0 +1,18 @@
+server:
+  port: 66
+  tomcat:
+    max-swallow-size: -1
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: file-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+
+logging:
+  level:
+    root: info
